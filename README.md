@@ -2,14 +2,16 @@
 
 每日 arXiv 论文订阅摘要归档，主题重点：
 
-- LoRA / PEFT / low-rank adaptation
-- 机器学习与深度学习理论
-- optimizer / optimization / learning dynamics
-- 量子计算 / tensor network
-- abstract visual reasoning
-- neural-symbolic / formal reasoning
+- HOI / Human-Object Interaction
+- Affordance / actionable affordance / human-object affordance / manipulation affordance
+- 灵巧手 / dexterous hand / dexterous manipulation / robotic hand / in-hand manipulation
+- 3D / 3D vision / 3D reconstruction / 3D understanding
+- 具身智能 / embodied AI / embodied agents / robotics / VLA
+- Agent / LLM agent / multimodal agent / autonomous agent / tool-use agent
 
-分类优先级以 `cs.*` 为主，尤其 `cs.LG`、`cs.AI`、`cs.CL`、`cs.CV`、`cs.NE`、`cs.DS`。高度相关的 `stat.ML`、`quant-ph`、`math-ph` 或其他分类会作为补充收录，并在摘要中标注。
+分类优先级以 `cs.*` 为主，尤其 `cs.CV`、`cs.AI`、`cs.RO`、`cs.LG`、`cs.CL`、`cs.NE`、`cs.HC`、`cs.GR`。高度相关的 `stat.ML`、`eess.IV`、`eess.SY`、`math.OC` 或其他分类会作为补充收录，并在摘要中标注。
+
+当前特别提高 Affordance 与灵巧手相关文献权重，包括 actionable/object/grasp/manipulation affordance、dexterous hand、robotic hand、multi-fingered manipulation、in-hand manipulation、hand-object reconstruction、tactile manipulation、bimanual manipulation 及其与 3D HOI、VLA、具身操控和机器人 Agent 的交叉方向。
 
 ## Archive
 
