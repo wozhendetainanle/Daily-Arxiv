@@ -1,6 +1,6 @@
 # Automation Description
 
-每天检索 arXiv 官方 `New submissions`，生成中文日报和可浏览的论文卡片页。主题以 **3D** 为主，重点关注 **3D 与物理交叉**。
+每天检索 arXiv 官方 `New submissions`，生成带三列 Markdown 卡片的中文日报。主题以 **3D** 为主，重点关注 **3D 与物理交叉**。
 
 ## Scope and ranking
 
@@ -19,11 +19,11 @@
 
 ## Outputs
 
-1. 写入 `daily/YYYY/YYYY-MM-DD.md`，更新 `README.md` 的 Archive。日报开头说明官方批次日期、检索窗口、分类、总命中数和入选数。Top papers 表格包含标题、arXiv 链接、分类、作者、机构、相关性和阅读优先级；每篇有 3–5 条中文要点。另列 Top 5 和 10 篇适合低算力改进的论文。如果没有新官方批次，写明原因，不重复旧论文。
+1. 写入 `daily/YYYY/YYYY-MM-DD.md`，更新 `README.md` 的 Archive。日报说明官方批次日期、检索窗口、分类、总命中数和入选数。Top papers 表格包含标题、arXiv 链接、分类、作者、机构、相关性和阅读优先级；每篇有 3–5 条中文要点。另列 Top 5 和最多 10 篇适合低算力改进的论文。如果没有新官方批次，写明原因，不重复旧论文。
 2. 为卡片补充 `data/enrichment.json`，以 arXiv ID 为键。可选字段：`venue`、`code`、`project`、`video`、`data`、`image`、`image_source`。`venue` 仅在会议/期刊官方或论文明确写出时填写；否则卡片显示 arXiv 日期和分类。资源链接必须逐一打开核实，不能猜测。
-3. 尽可能给重点论文保存真实配图到 `assets/papers/YYYY-MM-DD/<arxiv-id>.<ext>`，并填写相对 `image` 路径及 `image_source` 原始论文/项目页 URL。优先项目 teaser 或论文主图，不使用无关素材、截图示例或未经核实的热链。没有合适配图就留空，卡片显示占位图。
-4. 运行 `python3 scripts/build_site.py` 生成 `data/papers.json`。`index.html` 是三列深色卡片目录；缩略图、venue/arXiv 标签、标题、作者及已核实的 Paper/Code/Project/Video/Data 链接在卡片上显示。最终检查 JSON 中当天卡片数量与日报一致，打开页面确认无破图和溢出。
-5. 只提交本轮的日报、README 索引、必要的 enrichment/配图和生成的 JSON；按现有仓库流程推送。记录 commit SHA 和 push 成败。不要改写已发布日报以迎合新主题。
+3. 尽可能给重点论文保存真实配图到 `assets/papers/YYYY-MM-DD/<arxiv-id>.<ext>`，并填写相对 `image` 路径及 `image_source` 原始论文/项目页 URL。优先项目 teaser 或论文主图，不使用无关素材、截图示例或未经核实的热链。没有合适配图就留空，Markdown 卡片显示明确标注的占位图。
+4. 运行 `python3 scripts/build_cards.py`。脚本在每日 `.md` 的标题后嵌入三列 GitHub Markdown 卡片表格，包含缩略图、venue/arXiv 标签、标题、作者及已核实的 Paper/Code/Project/Video/Data 链接。它保留原有检索概况、表格和分析。检查当天卡片数与 Top papers 表格相同；不使用独立 HTML 页面或 GitHub Pages。
+5. 只提交本轮的日报、README 索引、必要的 enrichment/配图；按现有仓库流程推送。记录 commit SHA 和 push 成败。不要改写已发布日报的筛选内容来迎合新主题。
 
 ## Low-compute section
 

@@ -9,7 +9,7 @@
 
 优先覆盖 `cs.CV`、`cs.GR`、`cs.RO`、`cs.AI`、`cs.LG`，同时收录高度相关的物理、工程与数学分类。
 
-历史日报已转换为卡片数据；卡片页源码见 [index.html](index.html)。启用 GitHub Pages（`main` 分支、仓库根目录）后，可在 [卡片网页](https://wozhendetainanle.github.io/Daily-Arxiv/) 浏览。完整方法和事实/推断标注仍保存在每日 Markdown 中。历史日报保持原有主题与排序，不追溯重排。
+每期有论文的 Markdown 日报顶部直接显示三列论文卡片，可从下方 Archive 打开；无需 GitHub Pages。卡片下方保留完整检索概况、表格和中文分析。历史日报保持原有主题与排序，不追溯重排。
 
 ## Archive
 
@@ -81,4 +81,4 @@
 - 今日最值得细读的 5 篇
 - 10 篇低算力可改进论文；每篇给出 3 个比较详细的方法级改进点，包含改法、低算力验证实验、预期收益与风险
 
-页面数据由 `python3 scripts/build_site.py` 从归档日报生成。配图、venue 和其他资源链接写入 `data/enrichment.json`，仅收录已核实的来源。完整自动化口径见 [AUTOMATION.md](AUTOMATION.md)。
+运行 `python3 scripts/build_cards.py` 可从日报表格生成或更新 Markdown 内嵌卡片；重复运行不会重复插入。配图、venue 和其他资源链接写入 `data/enrichment.json`，仅收录已核实的来源。完整自动化口径见 [AUTOMATION.md](AUTOMATION.md)。

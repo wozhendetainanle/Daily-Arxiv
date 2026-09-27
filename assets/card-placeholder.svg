@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-label="论文配图待补">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#263a46"/><stop offset="1" stop-color="#111922"/></linearGradient>
+    <linearGradient id="shape" x2="1" y2="1"><stop stop-color="#7c9aa0" stop-opacity=".48"/><stop offset="1" stop-color="#c48f7b" stop-opacity=".12"/></linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#88a1aa" stroke-opacity=".13"/></pattern>
+  </defs>
+  <rect width="960" height="430" fill="url(#bg)"/>
+  <path d="M-40 120L950 385M120 -20L985 290M-20 250L730 430M220 -20L960 145" stroke="#98aeba" stroke-opacity=".08" stroke-width="2"/>
+  <rect width="960" height="430" fill="url(#grid)" opacity=".45"/>
+  <path d="M340 295L480 145L645 215L500 355Z" fill="url(#shape)" stroke="#9bb3b9" stroke-opacity=".43" stroke-width="2"/>
+  <path d="M480 145V275L500 355M480 275L340 295M480 275L645 215" fill="none" stroke="#a5bcc1" stroke-opacity=".4" stroke-width="2"/>
+  <text x="40" y="385" fill="#c7d3d8" font-family="Arial,sans-serif" font-size="27" letter-spacing="2">PAPER FIGURE PENDING</text>
+</svg>
