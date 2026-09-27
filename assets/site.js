@@ -76,6 +76,7 @@ function render() {
   cards.replaceChildren(...shown.map(paper => card(paper, day.date)));
   count.textContent = `${shown.length} / ${day.papers.length} 篇`;
   empty.hidden = shown.length > 0;
+  empty.textContent = day.papers.length ? '这个筛选下没有论文。' : '这一天没有新增论文；可阅读完整中文日报。';
 }
 
 fetch('data/papers.json')
@@ -83,12 +84,13 @@ fetch('data/papers.json')
   .then(data => {
     archive = data.dates;
     dateSelect.replaceChildren(...archive.map(day => {
-      const option = el('option', '', day.date);
+      const option = el('option', '', `${day.date}${day.papers.length ? '' : ' · 无新增'}`);
       option.value = day.date;
       return option;
     }));
     const requested = new URLSearchParams(location.search).get('date');
-    if (archive.some(day => day.date === requested)) dateSelect.value = requested;
+    dateSelect.value = archive.some(day => day.date === requested)
+      ? requested : (archive.find(day => day.papers.length)?.date || archive[0].date);
     dateSelect.addEventListener('change', () => { selectedTopic = '全部'; render(); });
     search.addEventListener('input', render);
     render();

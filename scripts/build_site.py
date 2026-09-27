@@ -13,7 +13,36 @@ ROOT = Path(__file__).resolve().parents[1]
 DAILY = ROOT / "daily"
 OUTPUT = ROOT / "data" / "papers.json"
 ENRICHMENT = ROOT / "data" / "enrichment.json"
-ROW = re.compile(r"^\|\s*(\d+)\s*\|\s*(.*?)\s*\|\s*\[arXiv:([\d.]+)\]\((https://arxiv\.org/abs/[\d.]+)\)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*([\d.]+)\s*\|\s*([\d.]+)\s*\|\s*(.*?)\s*\|\s*$")
+ARXIV = re.compile(r"https://arxiv\.org/abs/(\d{4}\.\d{4,5})(?:v\d+)?")
+MARKDOWN_LINK = re.compile(r"\[([^]]+)\]\([^)]+\)")
+
+
+def parse_row(line: str) -> dict | None:
+    if not line.startswith("|"):
+        return None
+    cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+    if len(cells) < 8 or not cells[0].isdigit():
+        return None
+    link_cell = next((index for index in (1, 2) if ARXIV.search(cells[index])), None)
+    if link_cell is None:
+        return None
+    match = ARXIV.search(cells[link_cell])
+    offset = 0 if link_cell == 1 else 1
+    if len(cells) < 8 + offset:
+        return None
+    title = MARKDOWN_LINK.sub(lambda item: item.group(1), cells[1]).split(" / PDF")[0].strip()
+    if not title:
+        return None
+    score_match = re.search(r"\d+(?:\.\d+)?", cells[5 + offset])
+    relevance = float(score_match.group()) if score_match else None
+    if relevance is not None and relevance > 10:
+        relevance /= 10
+    return {
+        "rank": int(cells[0]), "id": match.group(1), "title": title,
+        "authors": cells[3 + offset], "category": cells[2 + offset],
+        "affiliation": cells[4 + offset], "relevance": relevance,
+        "priority": cells[7 + offset],
+    }
 
 
 def topic(title: str) -> str:
@@ -51,11 +80,15 @@ def main() -> None:
     for report in sorted(DAILY.glob("*/*.md"), reverse=True):
         date = report.stem
         papers = []
+        seen_ids = set()
         for line in report.read_text(encoding="utf-8").splitlines():
-            match = ROW.match(line)
-            if not match:
+            row = parse_row(line)
+            if not row or row["id"] in seen_ids:
                 continue
-            rank, title, arxiv_id, paper_url, category, authors, affiliation, relevance, institution, priority = match.groups()
+            seen_ids.add(row["id"])
+            arxiv_id = row["id"]
+            title = row["title"]
+            paper_url = f"https://arxiv.org/abs/{arxiv_id}"
             extra = enrichment.get(arxiv_id, {})
             links = {"Paper": paper_url}
             for label in ("Code", "Project", "Video", "Data"):
@@ -63,22 +96,14 @@ def main() -> None:
                 if url:
                     links[label] = url
             papers.append({
-                "rank": int(rank),
-                "id": arxiv_id,
-                "title": title,
-                "authors": authors,
-                "category": category,
-                "affiliation": affiliation,
-                "relevance": float(relevance),
-                "priority": priority,
+                **row,
                 "topic": topic(title),
                 "venue": extra.get("venue") if isinstance(extra.get("venue"), str) else None,
                 "image": safe_image(extra.get("image")),
                 "imageSource": safe_url(extra.get("image_source")),
                 "links": links,
             })
-        if papers:
-            dates.append({"date": date, "report": report.relative_to(ROOT).as_posix(), "papers": papers})
+        dates.append({"date": date, "report": report.relative_to(ROOT).as_posix(), "papers": papers})
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps({"dates": dates}, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(f"Built {len(dates)} dates and {sum(len(item['papers']) for item in dates)} cards: {OUTPUT}")
