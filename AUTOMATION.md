@@ -1,66 +1,30 @@
 # Automation Description
 
-每日检索 arXiv 最近 24 小时的新论文，生成中文订阅摘要，并按日期归档到本仓库。
+每天检索 arXiv 官方 `New submissions`，生成中文日报和可浏览的论文卡片页。主题以 **3D** 为主，重点关注 **3D 与物理交叉**。
 
-## Scope
+## Scope and ranking
 
-主题重点：
+优先检索 `cs.CV`、`cs.GR`、`cs.RO`、`cs.AI`、`cs.LG`，补充高度相关的 `physics.*`、`cond-mat.*`、`eess.*`、`math.*` 等分类；非 cs 论文标明原分类，不因分类本身排除高相关论文。按标题与摘要核实研究对象，不能只凭关键词命中。
 
-- HOI / Human-Object Interaction
-- Affordance / actionable affordance / human-object affordance / object affordance / manipulation affordance
-- 灵巧手 / dexterous hand / dexterous manipulation / robotic hand / in-hand manipulation
-- 3D / 3D vision / 3D reconstruction / 3D understanding
-- 具身智能 / embodied AI / embodied agents / robotics / VLA
-- Agent / LLM agent / multimodal agent / autonomous agent / tool-use agent
+从高到低优先考虑：
 
-分类优先覆盖 `cs.*`，尤其 `cs.CV`、`cs.AI`、`cs.RO`、`cs.LG`、`cs.CL`、`cs.NE`、`cs.HC`、`cs.GR`。高度相关的 `stat.ML`、`eess.IV`、`eess.SY`、`math.OC` 或其他非 cs 分类可以纳入，但必须标注非 cs 分类，并在排序时降低分类优先级。
+1. 3D 表示、重建、生成或理解与物理动力学、力、接触、碰撞、形变、材料、流体、刚体/软体运动的交叉；
+2. 3D 物理世界模型、物理一致的 4D 场景、动态 Gaussian/NeRF/mesh/point cloud、可微仿真、inverse graphics 与物理参数估计；
+3. 3D 场景中的机器人操作与具身交互，包括抓取、手物接触、触觉、sim-to-real 和物理规划；
+4. 有明确三维贡献的基础 3D vision、graphics、reconstruction、generation、spatial reasoning 方法。
 
-检索时不要只依赖精确短语；需要覆盖同义词、缩写和相关表达，例如 `HOI detection`、`human-object affordance`、`actionable affordance`、`visual affordance`、`object affordance`、`functional affordance`、`grasp affordance`、`manipulation affordance`、`contact-rich affordance`、`dexterous hand`、`robotic hand`、`anthropomorphic hand`、`multi-finger hand`、`multi-fingered manipulation`、`in-hand manipulation`、`dexterous grasping`、`hand-object interaction`、`hand-object reconstruction`、`hand pose estimation`、`tactile manipulation`、`bimanual manipulation`、`Allegro Hand`、`Shadow Hand`、`LEAP Hand`、`3D scene understanding`、`robot manipulation`、`vision-language-action`、`VLA`、`world model`、`spatial reasoning`、`navigation`、`task planning`。
+对仅有泛化 Agent/VLA/LLM 术语、没有实质 3D 或物理内容的论文降权或排除。HOI、affordance 和灵巧手仅在具有明确三维几何、接触或物理机制时优先。高相关论文不足 40 篇就少收，不用宽泛论文凑数；最多 50 篇。
 
-## Retrieval And Ranking
+主榜只收官方 `New submissions`。同一 arXiv ID 去重；重大 Replacement 可在末尾单列。机构信息优先核对 PDF 首页、项目页和可信学术页面；无法确认则写“affiliation 未确认”。明确区分 arXiv/论文事实与相关性、局限、改进建议等推断。
 
-只把 arXiv `New submissions` 作为主榜来源；`Replacement submissions` 不进入主榜，除非是重大更新，并在末尾单独列出。需要去重同一论文不同版本，主榜优先保留首次提交的新论文。
+## Outputs
 
-排序先按与 HOI、Affordance、灵巧手/灵巧操作、3D、具身智能、Agent 六类主题及其交叉方向的相关性，再结合作者 affiliation/机构强弱。Affordance 和灵巧手是独立高优先主题，不只是 HOI 或 robotics 的附属关键词。
+1. 写入 `daily/YYYY/YYYY-MM-DD.md`，更新 `README.md` 的 Archive。日报开头说明官方批次日期、检索窗口、分类、总命中数和入选数。Top papers 表格包含标题、arXiv 链接、分类、作者、机构、相关性和阅读优先级；每篇有 3–5 条中文要点。另列 Top 5 和 10 篇适合低算力改进的论文。如果没有新官方批次，写明原因，不重复旧论文。
+2. 为卡片补充 `data/enrichment.json`，以 arXiv ID 为键。可选字段：`venue`、`code`、`project`、`video`、`data`、`image`、`image_source`。`venue` 仅在会议/期刊官方或论文明确写出时填写；否则卡片显示 arXiv 日期和分类。资源链接必须逐一打开核实，不能猜测。
+3. 尽可能给重点论文保存真实配图到 `assets/papers/YYYY-MM-DD/<arxiv-id>.<ext>`，并填写相对 `image` 路径及 `image_source` 原始论文/项目页 URL。优先项目 teaser 或论文主图，不使用无关素材、截图示例或未经核实的热链。没有合适配图就留空，卡片显示占位图。
+4. 运行 `python3 scripts/build_site.py` 生成 `data/papers.json`。`index.html` 是三列深色卡片目录；缩略图、venue/arXiv 标签、标题、作者及已核实的 Paper/Code/Project/Video/Data 链接在卡片上显示。最终检查 JSON 中当天卡片数量与日报一致，打开页面确认无破图和溢出。
+5. 只提交本轮的日报、README 索引、必要的 enrichment/配图和生成的 JSON；按现有仓库流程推送。记录 commit SHA 和 push 成败。不要改写已发布日报以迎合新主题。
 
-交叉优先级大致为：Affordance × dexterous hand/robot manipulation、3D HOI/3D hand-object interaction、dexterous manipulation × tactile/vision-language-action、affordance-guided embodied manipulation、3D world model/agent × robot manipulation、通用 Agent 或通用 3D 论文。对纯泛化的 “affordance” 社会科学/经济学/语言学用法、非视觉/非机器人/非交互意义的 hand/agent 论文要降权或排除。
+## Low-compute section
 
-affiliation 优先从论文 PDF 首页、作者机构标注、项目页或可信学术页面推断；无法可靠确认时写“affiliation 未确认”，不要臆造。
-
-## Output Format
-
-每期输出到 `daily/YYYY/YYYY-MM-DD.md`，并同步更新 `README.md` 的 Archive。完成后提交并推送到 `wozhendetainanle/Daily-Arxiv`。
-
-开头必须包含：
-
-- 检索时间窗口
-- 检索关键词/分类
-- 总命中数和入选篇数
-- 对 cross-list、replacement、非 cs 分类的处理说明
-
-Top papers 默认入选 40 篇，最多 50 篇；如果当天高相关论文不足 40 篇，可以少于 40 篇，但必须在开头说明原因。
-
-Top papers 表格列固定为：
-
-| 排名 | 标题 | arXiv 链接 | 分类 | 作者 | 推断 affiliation | 相关性分数 | 机构强度分数 | 推荐阅读优先级 |
-|---:|---|---|---|---|---|---:|---:|---|
-
-每篇论文后用 3-5 条中文要点覆盖：核心问题、主要方法、关键贡献、可能局限、为什么值得关注。明确区分事实信息与推断。
-
-Top papers 后必须单独列出“今日最值得细读的 5 篇”。
-
-## Low-Compute Improvement Section
-
-低算力改进部分固定为“10 篇低算力可改进论文”。从当日论文中选 10 篇最适合低算力延展的论文，优先选择 Affordance、灵巧手/灵巧操作、3D HOI、VLA manipulation、tactile manipulation、hand-object reconstruction 相关论文。
-
-对每篇论文提出 3 个比较详细的方法级改进点。重点是改论文方法本身，不是泛泛复现、只换数据集、只调参或只做更多 baseline。
-
-每个改进点必须包含：
-
-- 具体方法改法
-- 为什么低算力可行
-- 一个可执行的小实验或复现实验
-- 预期收益
-- 主要风险
-
-事实信息和推断必须明确区分；来源链接必须可点击。
+从当日高相关论文中选最多 10 篇真正适合低算力延展的论文，优先 3D 物理建模、物理一致重建、接触/动力学估计、可微仿真和 3D 机器人交互。每篇提出具体方法改法、一个可执行的小实验、低算力原因、预期收益和风险。若不足 10 篇，说明原因。不要把复现、换数据集或调参冒充方法创新。

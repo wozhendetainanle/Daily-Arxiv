@@ -1,17 +1,15 @@
 # Daily arXiv Subscription
 
-每日 arXiv 论文订阅摘要归档，主题重点：
+每日 arXiv 论文订阅摘要归档。从下一次有新官方批次的日报开始，主题重点改为：
 
-- HOI / Human-Object Interaction
-- Affordance / actionable affordance / human-object affordance / manipulation affordance
-- 灵巧手 / dexterous hand / dexterous manipulation / robotic hand / in-hand manipulation
-- 3D / 3D vision / 3D reconstruction / 3D understanding
-- 具身智能 / embodied AI / embodied agents / robotics / VLA
-- Agent / LLM agent / multimodal agent / autonomous agent / tool-use agent
+- 3D 视觉、图形学、重建、生成与三维场景理解
+- 3D 与物理交叉：动力学、接触、力、碰撞、形变、材料与流体
+- 物理一致的 4D 场景、3D 世界模型、可微仿真与物理参数估计
+- 三维几何和物理机制明确的机器人操作、手物交互与 sim-to-real
 
-分类优先级以 `cs.*` 为主，尤其 `cs.CV`、`cs.AI`、`cs.RO`、`cs.LG`、`cs.CL`、`cs.NE`、`cs.HC`、`cs.GR`。高度相关的 `stat.ML`、`eess.IV`、`eess.SY`、`math.OC` 或其他分类会作为补充收录，并在摘要中标注。
+优先覆盖 `cs.CV`、`cs.GR`、`cs.RO`、`cs.AI`、`cs.LG`，同时收录高度相关的物理、工程与数学分类。
 
-当前特别提高 Affordance 与灵巧手相关文献权重，包括 actionable/object/grasp/manipulation affordance、dexterous hand、robotic hand、multi-fingered manipulation、in-hand manipulation、hand-object reconstruction、tactile manipulation、bimanual manipulation 及其与 3D HOI、VLA、具身操控和机器人 Agent 的交叉方向。
+卡片版入口：[浏览论文卡片](index.html)。完整方法和事实/推断标注仍保存在每日 Markdown 中。历史日报保持原有主题与排序，不追溯重排。
 
 ## Archive
 
@@ -79,8 +77,8 @@
 每期摘要包含：
 
 - 检索窗口、关键词/分类、总命中数、入选篇数
-- Top papers 表格，默认入选 40 篇、最多 50 篇；逐篇要点直接统计到表格的“要点速览”列
+- Top papers 表格，最多 50 篇，高相关论文不足时可以少于 40 篇
 - 今日最值得细读的 5 篇
 - 10 篇低算力可改进论文；每篇给出 3 个比较详细的方法级改进点，包含改法、低算力验证实验、预期收益与风险
 
-完整自动化口径见 [AUTOMATION.md](AUTOMATION.md)。
+页面数据由 `python3 scripts/build_site.py` 从归档日报生成。配图、venue 和其他资源链接写入 `data/enrichment.json`，仅收录已核实的来源。完整自动化口径见 [AUTOMATION.md](AUTOMATION.md)。
