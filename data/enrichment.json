@@ -1,1 +1,202 @@
-{}
+{
+  "2609.29822": {
+    "image": "assets/papers/2026-09-26/2609.29822.webp",
+    "image_source": "https://arxiv.org/html/2609.29822v1/top.png"
+  },
+  "2609.29389": {
+    "image": "assets/papers/2026-09-26/2609.29389.webp",
+    "image_source": "https://arxiv.org/html/2609.29389v1/k1_framework.png"
+  },
+  "2609.28660": {
+    "image": "assets/papers/2026-09-26/2609.28660.webp",
+    "image_source": "https://arxiv.org/html/2609.28660v1/fig3_compressed.png"
+  },
+  "2609.28811": {
+    "image": "assets/papers/2026-09-26/2609.28811.webp",
+    "image_source": "https://arxiv.org/html/2609.28811v1/teaser_four_panel.png"
+  },
+  "2609.29031": {
+    "image": "assets/papers/2026-09-26/2609.29031.webp",
+    "image_source": "https://arxiv.org/html/2609.29031v1/figure1.png"
+  },
+  "2609.29760": {
+    "image": "assets/papers/2026-09-26/2609.29760.webp",
+    "image_source": "https://arxiv.org/html/2609.29760v1/figures/hero_v2_nofade.jpg"
+  },
+  "2609.29065": {
+    "image": "assets/papers/2026-09-26/2609.29065.webp",
+    "image_source": "https://arxiv.org/html/2609.29065v1/113_lower.png"
+  },
+  "2609.29964": {
+    "image": "assets/papers/2026-09-26/2609.29964.webp",
+    "image_source": "https://arxiv.org/html/2609.29964v1/waa_teaser.png"
+  },
+  "2609.28984": {
+    "image": "assets/papers/2026-09-26/2609.28984.webp",
+    "image_source": "https://arxiv.org/html/2609.28984v1/main_figure.png"
+  },
+  "2609.29020": {
+    "image": "assets/papers/2026-09-26/2609.29020.webp",
+    "image_source": "https://arxiv.org/html/2609.29020v1/first_figure.png"
+  },
+  "2609.29021": {
+    "image": "assets/papers/2026-09-26/2609.29021.webp",
+    "image_source": "https://arxiv.org/html/2609.29021v1/motivation.png"
+  },
+  "2609.30082": {
+    "image": "assets/papers/2026-09-26/2609.30082.webp",
+    "image_source": "https://arxiv.org/html/2609.30082v1/fig_realworld_grasping_v4.png"
+  },
+  "2609.29017": {
+    "image": "assets/papers/2026-09-26/2609.29017.webp",
+    "image_source": "https://arxiv.org/html/2609.29017v1/pic/fig1.png"
+  },
+  "2609.29176": {
+    "image": "assets/papers/2026-09-26/2609.29176.webp",
+    "image_source": "https://arxiv.org/pdf/2609.29176"
+  },
+  "2609.30023": {
+    "image": "assets/papers/2026-09-26/2609.30023.webp",
+    "image_source": "https://arxiv.org/html/2609.30023v1/cable_image_3.png"
+  },
+  "2609.29093": {
+    "image": "assets/papers/2026-09-26/2609.29093.webp",
+    "image_source": "https://arxiv.org/html/2609.29093v1/figures/fig1_concept.jpg"
+  },
+  "2609.28865": {
+    "image": "assets/papers/2026-09-26/2609.28865.webp",
+    "image_source": "https://arxiv.org/html/2609.28865v1/light_font_fixed.png"
+  },
+  "2609.30092": {
+    "image": "assets/papers/2026-09-26/2609.30092.webp",
+    "image_source": "https://arxiv.org/html/2609.30092v1/teaser_v4.png"
+  },
+  "2609.29171": {
+    "image": "assets/papers/2026-09-26/2609.29171.webp",
+    "image_source": "https://arxiv.org/pdf/2609.29171"
+  },
+  "2609.29204": {
+    "image": "assets/papers/2026-09-26/2609.29204.webp",
+    "image_source": "https://arxiv.org/html/2609.29204v1/intro_show.png"
+  },
+  "2609.28927": {
+    "image": "assets/papers/2026-09-26/2609.28927.webp",
+    "image_source": "https://arxiv.org/html/2609.28927v1/fig1-stix.png"
+  },
+  "2609.29382": {
+    "image": "assets/papers/2026-09-26/2609.29382.webp",
+    "image_source": "https://arxiv.org/html/2609.29382v1/teaser.png"
+  },
+  "2609.30247": {
+    "image": "assets/papers/2026-09-26/2609.30247.webp",
+    "image_source": "https://arxiv.org/html/2609.30247v1/rollingwam-teaser.png"
+  },
+  "2609.30264": {
+    "image": "assets/papers/2026-09-26/2609.30264.webp",
+    "image_source": "https://arxiv.org/html/2609.30264v1/teaser.png"
+  },
+  "2609.29669": {
+    "image": "assets/papers/2026-09-26/2609.29669.webp",
+    "image_source": "https://arxiv.org/html/2609.29669v1/figures/hand_drawn/fig_eval_loop_hand.png"
+  },
+  "2609.28818": {
+    "image": "assets/papers/2026-09-26/2609.28818.webp",
+    "image_source": "https://arxiv.org/html/2609.28818v1/x1.png"
+  },
+  "2609.28955": {
+    "image": "assets/papers/2026-09-26/2609.28955.webp",
+    "image_source": "https://arxiv.org/html/2609.28955v1/figs/TeaserV8.png"
+  },
+  "2609.30024": {
+    "image": "assets/papers/2026-09-26/2609.30024.webp",
+    "image_source": "https://arxiv.org/html/2609.30024v1/concept_2.png"
+  },
+  "2609.28766": {
+    "image": "assets/papers/2026-09-26/2609.28766.webp",
+    "image_source": "https://arxiv.org/html/2609.28766v1/revision_dynamics.png"
+  },
+  "2609.30140": {
+    "image": "assets/papers/2026-09-26/2609.30140.webp",
+    "image_source": "https://arxiv.org/html/2609.30140v1/robot_concept_fig_9.png"
+  },
+  "2609.29407": {
+    "image": "assets/papers/2026-09-26/2609.29407.webp",
+    "image_source": "https://arxiv.org/html/2609.29407v1/img/sys-overview-v7.png"
+  },
+  "2609.28878": {
+    "image": "assets/papers/2026-09-26/2609.28878.webp",
+    "image_source": "https://arxiv.org/html/2609.28878v1/front.png"
+  },
+  "2609.29340": {
+    "image": "assets/papers/2026-09-26/2609.29340.webp",
+    "image_source": "https://arxiv.org/html/2609.29340v1/fold.png"
+  },
+  "2609.29000": {
+    "image": "assets/papers/2026-09-26/2609.29000.webp",
+    "image_source": "https://arxiv.org/html/2609.29000v1/framework.png"
+  },
+  "2609.29310": {
+    "image": "assets/papers/2026-09-26/2609.29310.webp",
+    "image_source": "https://arxiv.org/html/2609.29310v1/fig1.png"
+  },
+  "2609.28530": {
+    "image": "assets/papers/2026-09-26/2609.28530.webp",
+    "image_source": "https://arxiv.org/html/2609.28530v1/fig1_teaser.png"
+  },
+  "2609.30249": {
+    "image": "assets/papers/2026-09-26/2609.30249.webp",
+    "image_source": "https://arxiv.org/html/2609.30249v1/teaser.png"
+  },
+  "2609.30233": {
+    "image": "assets/papers/2026-09-26/2609.30233.webp",
+    "image_source": "https://arxiv.org/html/2609.30233v1/fig1.png"
+  },
+  "2609.29394": {
+    "image": "assets/papers/2026-09-26/2609.29394.webp",
+    "image_source": "https://arxiv.org/html/2609.29394v1/RACaP_Figure1_editable.png"
+  },
+  "2609.29212": {
+    "image": "assets/papers/2026-09-26/2609.29212.webp",
+    "image_source": "https://arxiv.org/html/2609.29212v1/cover_figure_dynamic_memory.png"
+  },
+  "2609.29835": {
+    "image": "assets/papers/2026-09-26/2609.29835.webp",
+    "image_source": "https://arxiv.org/html/2609.29835v1/LiDAR-LLM_Teaser_v4.png"
+  },
+  "2609.29043": {
+    "image": "assets/papers/2026-09-26/2609.29043.webp",
+    "image_source": "https://arxiv.org/html/2609.29043v1/figures/auc_final.png"
+  },
+  "2609.30222": {
+    "image": "assets/papers/2026-09-26/2609.30222.webp",
+    "image_source": "https://arxiv.org/html/2609.30222v1/te_teaser_graphic.png"
+  },
+  "2609.30214": {
+    "image": "assets/papers/2026-09-26/2609.30214.webp",
+    "image_source": "https://arxiv.org/html/2609.30214v1/fig1a.png"
+  },
+  "2609.29490": {
+    "image": "assets/papers/2026-09-26/2609.29490.webp",
+    "image_source": "https://arxiv.org/html/2609.29490v1/Figure_1.png"
+  },
+  "2609.29836": {
+    "image": "assets/papers/2026-09-26/2609.29836.webp",
+    "image_source": "https://arxiv.org/html/2609.29836v1/images/Qualitative_Results.png"
+  },
+  "2609.29092": {
+    "image": "assets/papers/2026-09-26/2609.29092.webp",
+    "image_source": "https://arxiv.org/html/2609.29092v1/figures/figure1_framework.png"
+  },
+  "2609.28959": {
+    "image": "assets/papers/2026-09-26/2609.28959.webp",
+    "image_source": "https://arxiv.org/html/2609.28959v1/headpicture.png"
+  },
+  "2609.29091": {
+    "image": "assets/papers/2026-09-26/2609.29091.webp",
+    "image_source": "https://arxiv.org/html/2609.29091v1/comparison_.png"
+  },
+  "2609.28798": {
+    "image": "assets/papers/2026-09-26/2609.28798.webp",
+    "image_source": "https://arxiv.org/pdf/2609.28798"
+  }
+}

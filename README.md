@@ -81,4 +81,4 @@
 - 今日最值得细读的 5 篇
 - 10 篇低算力可改进论文；每篇给出 3 个比较详细的方法级改进点，包含改法、低算力验证实验、预期收益与风险
 
-运行 `python3 scripts/build_cards.py` 可从日报表格生成或更新 Markdown 内嵌卡片；重复运行不会重复插入。配图、venue 和其他资源链接写入 `data/enrichment.json`，仅收录已核实的来源。完整自动化口径见 [AUTOMATION.md](AUTOMATION.md)。
+运行 `python3 scripts/build_cards.py` 可从日报表格生成或更新 Markdown 内嵌卡片；重复运行不会重复插入。卡片直接标注机构。配图、venue 和其他资源链接写入 `data/enrichment.json`，仅收录已核实的来源；`scripts/fetch_figures.py` 可从官方 arXiv HTML/PDF 取得论文图。完整自动化口径见 [AUTOMATION.md](AUTOMATION.md)。

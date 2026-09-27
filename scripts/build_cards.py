@@ -43,6 +43,7 @@ def parse_row(line: str) -> dict | None:
         "title": title,
         "category": cells[2 + offset],
         "authors": cells[3 + offset],
+        "affiliation": cells[4 + offset],
     }
 
 
@@ -93,6 +94,7 @@ def card(report: Path, paper: dict, enrichment: dict) -> str:
         f"<sub>{inline(label)} · #{paper['rank']}</sub><br>"
         f"**[{inline(paper['title'])}]({paper_url})**<br>"
         f"<sub>{inline(authors)}</sub><br>"
+        f"<sub>机构：{inline(paper['affiliation'])}</sub><br>"
         + " · ".join(links)
     )
 
