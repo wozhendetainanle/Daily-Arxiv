@@ -9,7 +9,7 @@
 
 优先覆盖 `cs.CV`、`cs.GR`、`cs.RO`、`cs.AI`、`cs.LG`，同时收录高度相关的物理、工程与数学分类。
 
-卡片版入口：[浏览论文卡片](index.html)。完整方法和事实/推断标注仍保存在每日 Markdown 中。历史日报保持原有主题与排序，不追溯重排。
+历史日报已转换为卡片数据；卡片页源码见 [index.html](index.html)。启用 GitHub Pages（`main` 分支、仓库根目录）后，可在 [卡片网页](https://wozhendetainanle.github.io/Daily-Arxiv/) 浏览。完整方法和事实/推断标注仍保存在每日 Markdown 中。历史日报保持原有主题与排序，不追溯重排。
 
 ## Archive
 
