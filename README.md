@@ -11,6 +11,11 @@
 
 每期有论文的 Markdown 日报顶部直接显示三列论文卡片，可从下方 Archive 打开；无需 GitHub Pages。卡片下方保留完整检索概况、表格和中文分析。历史日报保持原有主题与排序，不追溯重排。
 
+## Topics
+
+- [2026 年 3D 测试时编辑与编辑后物理属性：100 篇论文](topics/2026-3d-ttt-editing-post-edit-physics.md)
+- [2026 年 3D 物理资产与功能编辑：100 篇论文](topics/2026-3d-physics-functional-editing.md)
+
 ## Archive
 
 - [2026-09-27](daily/2026/2026-09-27.md)
