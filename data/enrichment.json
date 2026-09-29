@@ -198,5 +198,135 @@
   "2609.28798": {
     "image": "assets/papers/2026-09-26/2609.28798.webp",
     "image_source": "https://arxiv.org/pdf/2609.28798"
+  },
+  "2609.30951": {
+    "project": "https://bundledcontactgradients.github.io/",
+    "image": "assets/papers/2026-09-29/2609.30951.webp",
+    "image_source": "https://arxiv.org/html/2609.30951v1/main-fig.png"
+  },
+  "2609.30822": {
+    "code": "https://github.com/aidenzhou8/AdaptGNS",
+    "image": "assets/papers/2026-09-29/2609.30822.webp",
+    "image_source": "https://arxiv.org/html/2609.30822v1/sigma_traj0_strip_1_10_50.png"
+  },
+  "2609.31374": {
+    "project": "https://zijunkr.github.io/RECAST/",
+    "image": "assets/papers/2026-09-29/2609.31374.webp",
+    "image_source": "https://arxiv.org/html/2609.31374v1/motivation.png"
+  },
+  "2609.30543": {
+    "code": "https://github.com/VT-Collab/GraspTwin/",
+    "image": "assets/papers/2026-09-29/2609.30543.webp",
+    "image_source": "https://arxiv.org/html/2609.30543v1/front.png"
+  },
+  "2609.30959": {
+    "project": "https://vis-tac-align.github.io",
+    "image": "assets/papers/2026-09-29/2609.30959.webp",
+    "image_source": "https://arxiv.org/html/2609.30959v1/splash.png"
+  },
+  "2609.31112": {
+    "project": "https://lichengxi1.github.io/Dualmanip/",
+    "image": "assets/papers/2026-09-29/2609.31112.webp",
+    "image_source": "https://arxiv.org/html/2609.31112v1/teaser_v2.png"
+  },
+  "2609.30865": {
+    "code": "https://github.com/Zijian1026/RRTO-CF3DGS",
+    "image": "assets/papers/2026-09-29/2609.30865.webp",
+    "image_source": "https://arxiv.org/html/2609.30865v1/fig1.png"
+  },
+  "2609.30889": {
+    "venue": "IROS 2026",
+    "image": "assets/papers/2026-09-29/2609.30889.webp",
+    "image_source": "https://arxiv.org/html/2609.30889v1/fig/teaser_v3.png"
+  },
+  "2609.31339": {
+    "venue": "Pacific Graphics 2026",
+    "image": "assets/papers/2026-09-29/2609.31339.webp",
+    "image_source": "https://arxiv.org/html/2609.31339v1/teaser_7_vec.png"
+  },
+  "2609.31199": {
+    "venue": "Remote Sensing 2026",
+    "image": "assets/papers/2026-09-29/2609.31199.webp",
+    "image_source": "https://arxiv.org/html/2609.31199v1/figs/data_timeline.png"
+  },
+  "2609.30946": {
+    "image": "assets/papers/2026-09-29/2609.30946.webp",
+    "image_source": "https://arxiv.org/html/2609.30946v1/OneWorld_motivation.png"
+  },
+  "2609.30344": {
+    "image": "assets/papers/2026-09-29/2609.30344.webp",
+    "image_source": "https://arxiv.org/html/2609.30344v1/figures/main/beam_fea/beamfea_main1_rollout_tipdisp_Tc0.4.png"
+  },
+  "2609.30718": {
+    "image": "assets/papers/2026-09-29/2609.30718.webp",
+    "image_source": "https://arxiv.org/html/2609.30718v1/main_framework.png"
+  },
+  "2609.30696": {
+    "image": "assets/papers/2026-09-29/2609.30696.webp",
+    "image_source": "https://arxiv.org/html/2609.30696v1/figures/teaser_v7.png"
+  },
+  "2609.30842": {
+    "image": "assets/papers/2026-09-29/2609.30842.webp",
+    "image_source": "https://arxiv.org/html/2609.30842v1/concept.png"
+  },
+  "2609.31225": {
+    "image": "assets/papers/2026-09-29/2609.31225.webp",
+    "image_source": "https://arxiv.org/html/2609.31225v1/images/figure1.jpg"
+  },
+  "2609.31452": {
+    "image": "assets/papers/2026-09-29/2609.31452.webp",
+    "image_source": "https://arxiv.org/html/2609.31452v1/intro_revision_6DoF_compressed.png"
+  },
+  "2609.30745": {
+    "image": "assets/papers/2026-09-29/2609.30745.webp",
+    "image_source": "https://arxiv.org/html/2609.30745v1/images/colon_centerline.png"
+  },
+  "2609.30506": {
+    "image": "assets/papers/2026-09-29/2609.30506.webp",
+    "image_source": "https://arxiv.org/html/2609.30506v1/figures/heat.png"
+  },
+  "2609.30599": {
+    "image": "assets/papers/2026-09-29/2609.30599.webp",
+    "image_source": "https://arxiv.org/html/2609.30599v1/figures/fig1_research_content.png"
+  },
+  "2609.30517": {
+    "image": "assets/papers/2026-09-29/2609.30517.webp",
+    "image_source": "https://arxiv.org/html/2609.30517v1/fig1-intro-v12-hk.png"
+  },
+  "2609.30393": {
+    "image": "assets/papers/2026-09-29/2609.30393.webp",
+    "image_source": "https://arxiv.org/html/2609.30393v1/sec/Figs/materials_random_v11_seq3_11000.png"
+  },
+  "2609.31572": {
+    "image": "assets/papers/2026-09-29/2609.31572.webp",
+    "image_source": "https://arxiv.org/html/2609.31572v1/Figure_1.png"
+  },
+  "2609.31509": {
+    "image": "assets/papers/2026-09-29/2609.31509.webp",
+    "image_source": "https://arxiv.org/html/2609.31509v1/compare.png"
+  },
+  "2609.31248": {
+    "image": "assets/papers/2026-09-29/2609.31248.webp",
+    "image_source": "https://arxiv.org/html/2609.31248v1/fig_selected_qualitative_handheld.png"
+  },
+  "2609.31005": {
+    "image": "assets/papers/2026-09-29/2609.31005.webp",
+    "image_source": "https://arxiv.org/html/2609.31005v1/intro-fig-final-copy-compact.png"
+  },
+  "2609.31595": {
+    "image": "assets/papers/2026-09-29/2609.31595.webp",
+    "image_source": "https://arxiv.org/html/2609.31595v1/fig1_teaser.png"
+  },
+  "2609.31103": {
+    "image": "assets/papers/2026-09-29/2609.31103.webp",
+    "image_source": "https://arxiv.org/html/2609.31103v1/fig-1-qwen_depth_case_and_capability-v3.png"
+  },
+  "2609.31377": {
+    "image": "assets/papers/2026-09-29/2609.31377.webp",
+    "image_source": "https://arxiv.org/pdf/2609.31377"
+  },
+  "2609.31434": {
+    "image": "assets/papers/2026-09-29/2609.31434.webp",
+    "image_source": "https://arxiv.org/pdf/2609.31434"
   }
 }
