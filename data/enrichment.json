@@ -328,5 +328,132 @@
   "2609.31434": {
     "image": "assets/papers/2026-09-29/2609.31434.webp",
     "image_source": "https://arxiv.org/pdf/2609.31434"
+  },
+  "2609.33237": {
+    "image": "assets/papers/2026-09-30/2609.33237.webp",
+    "image_source": "https://arxiv.org/html/2609.33237v1/coverfig_color_fixed.png"
+  },
+  "2609.35619": {
+    "image": "assets/papers/2026-09-30/2609.35619.webp",
+    "image_source": "https://arxiv.org/html/2609.35619v1/figures/pr_curve-new.png"
+  },
+  "2609.35134": {
+    "image": "assets/papers/2026-09-30/2609.35134.webp",
+    "image_source": "https://arxiv.org/html/2609.35134v1/method-gpt-image-editable.png",
+    "code": "https://github.com/Hammour-steak/VideoPhysEdit"
+  },
+  "2609.32099": {
+    "image": "assets/papers/2026-09-30/2609.32099.webp",
+    "image_source": "https://arxiv.org/html/2609.32099v1/Fabrication.png"
+  },
+  "2609.35311": {
+    "image": "assets/papers/2026-09-30/2609.35311.webp",
+    "image_source": "https://arxiv.org/html/2609.35311v1/Figure1_Final.png"
+  },
+  "2609.34666": {
+    "image": "assets/papers/2026-09-30/2609.34666.webp",
+    "image_source": "https://arxiv.org/html/2609.34666v1/figures/01.png"
+  },
+  "2609.32864": {
+    "image": "assets/papers/2026-09-30/2609.32864.webp",
+    "image_source": "https://arxiv.org/html/2609.32864v1/figures/fig_problem.png"
+  },
+  "2609.31715": {
+    "image": "assets/papers/2026-09-30/2609.31715.webp",
+    "image_source": "https://arxiv.org/pdf/2609.31715",
+    "project": "https://fysics-ai.github.io/Fysiverse-3D-project-page/"
+  },
+  "2609.31761": {
+    "image": "assets/papers/2026-09-30/2609.31761.webp",
+    "image_source": "https://arxiv.org/pdf/2609.31761"
+  },
+  "2609.33138": {
+    "image": "assets/papers/2026-09-30/2609.33138.webp",
+    "image_source": "https://arxiv.org/html/2609.33138v1/figures/pulling_tipping.png"
+  },
+  "2609.31754": {
+    "image": "assets/papers/2026-09-30/2609.31754.webp",
+    "image_source": "https://arxiv.org/pdf/2609.31754"
+  },
+  "2609.33931": {
+    "image": "assets/papers/2026-09-30/2609.33931.webp",
+    "image_source": "https://arxiv.org/html/2609.33931v1/category_compressed.png",
+    "project": "https://heyumeng.com/ArticulateArena-web/"
+  },
+  "2609.34006": {
+    "image": "assets/papers/2026-09-30/2609.34006.webp",
+    "image_source": "https://arxiv.org/html/2609.34006v1/figures/Fig_2.png"
+  },
+  "2609.34209": {
+    "image": "assets/papers/2026-09-30/2609.34209.webp",
+    "image_source": "https://arxiv.org/html/2609.34209v1/figures/overview_final_ver2.png"
+  },
+  "2609.33104": {
+    "image": "assets/papers/2026-09-30/2609.33104.webp",
+    "image_source": "https://arxiv.org/html/2609.33104v1/1.png"
+  },
+  "2609.35094": {
+    "image": "assets/papers/2026-09-30/2609.35094.webp",
+    "image_source": "https://arxiv.org/html/2609.35094v1/fig1.png"
+  },
+  "2609.33857": {
+    "image": "assets/papers/2026-09-30/2609.33857.webp",
+    "image_source": "https://arxiv.org/html/2609.33857v1/pi_nomt_pipeline.drawio.png"
+  },
+  "2609.33551": {
+    "image": "assets/papers/2026-09-30/2609.33551.webp",
+    "image_source": "https://arxiv.org/html/2609.33551v1/image/FoLD_teaser2.png",
+    "project": "https://gghgghgghgg.github.io/FoLD-project-page/"
+  },
+  "2609.34286": {
+    "image": "assets/papers/2026-09-30/2609.34286.webp",
+    "image_source": "https://arxiv.org/html/2609.34286v1/fig_teaser.png",
+    "project": "https://adonis-galaxy.github.io/dtwm-project-page/"
+  },
+  "2609.34231": {
+    "image": "assets/papers/2026-09-30/2609.34231.webp",
+    "image_source": "https://arxiv.org/html/2609.34231v1/bench.png"
+  },
+  "2609.34733": {
+    "image": "assets/papers/2026-09-30/2609.34733.webp",
+    "image_source": "https://arxiv.org/html/2609.34733v1/fig1_surggmf_pipeline.png"
+  },
+  "2609.32596": {
+    "image": "assets/papers/2026-09-30/2609.32596.webp",
+    "image_source": "https://arxiv.org/html/2609.32596v1/fig1_teaser.png",
+    "code": "https://github.com/HCPLab-SYSU/GAUGE"
+  },
+  "2609.32711": {
+    "image": "assets/papers/2026-09-30/2609.32711.webp",
+    "image_source": "https://arxiv.org/html/2609.32711v1/teaser.png",
+    "project": "https://prodygs.github.io"
+  },
+  "2609.33110": {
+    "image": "assets/papers/2026-09-30/2609.33110.webp",
+    "image_source": "https://arxiv.org/html/2609.33110v1/figures/djepa.png"
+  },
+  "2609.34035": {
+    "image": "assets/papers/2026-09-30/2609.34035.webp",
+    "image_source": "https://arxiv.org/html/2609.34035v1/figs/teaser_track2d.png"
+  },
+  "2609.33036": {
+    "image": "assets/papers/2026-09-30/2609.33036.webp",
+    "image_source": "https://arxiv.org/html/2609.33036v1/spiv_system_combined.png"
+  },
+  "2609.35249": {
+    "image": "assets/papers/2026-09-30/2609.35249.webp",
+    "image_source": "https://arxiv.org/html/2609.35249v1/figures/pipeline_V25.png"
+  },
+  "2609.32126": {
+    "image": "assets/papers/2026-09-30/2609.32126.webp",
+    "image_source": "https://arxiv.org/pdf/2609.32126"
+  },
+  "2609.33299": {
+    "image": "assets/papers/2026-09-30/2609.33299.webp",
+    "image_source": "https://arxiv.org/pdf/2609.33299"
+  },
+  "2609.33969": {
+    "image": "assets/papers/2026-09-30/2609.33969.webp",
+    "image_source": "https://arxiv.org/html/2609.33969v1/framework.png"
   }
 }
