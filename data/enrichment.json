@@ -455,5 +455,110 @@
   "2609.33969": {
     "image": "assets/papers/2026-09-30/2609.33969.webp",
     "image_source": "https://arxiv.org/html/2609.33969v1/framework.png"
+  },
+  "2609.38152": {
+    "image": "assets/papers/2026-10-01/2609.38152.webp",
+    "image_source": "https://arxiv.org/html/2609.38152v1/teaser.png",
+    "project": "https://fracgen.github.io"
+  },
+  "2609.36454": {
+    "image": "assets/papers/2026-10-01/2609.36454.webp",
+    "image_source": "https://arxiv.org/html/2609.36454v1/framework.png"
+  },
+  "2609.38153": {
+    "image": "assets/papers/2026-10-01/2609.38153.webp",
+    "image_source": "https://arxiv.org/html/2609.38153v1/teaser.png",
+    "project": "https://power-sim.github.io"
+  },
+  "2609.38105": {
+    "image": "assets/papers/2026-10-01/2609.38105.webp",
+    "image_source": "https://arxiv.org/html/2609.38105v1/Fig-1.png"
+  },
+  "2609.37560": {
+    "image": "assets/papers/2026-10-01/2609.37560.webp",
+    "image_source": "https://arxiv.org/html/2609.37560v1/overview.png"
+  },
+  "2609.36593": {
+    "image": "assets/papers/2026-10-01/2609.36593.webp",
+    "image_source": "https://arxiv.org/html/2609.36593v1/teaser.png"
+  },
+  "2609.37260": {
+    "image": "assets/papers/2026-10-01/2609.37260.webp",
+    "image_source": "https://arxiv.org/html/2609.37260v1/fig/vis_teaser_new.png"
+  },
+  "2609.36056": {
+    "image": "assets/papers/2026-10-01/2609.36056.webp",
+    "image_source": "https://arxiv.org/html/2609.36056v1/FNO_uav.png"
+  },
+  "2609.36504": {
+    "image": "assets/papers/2026-10-01/2609.36504.webp",
+    "image_source": "https://arxiv.org/html/2609.36504v1/SimVP_4D_draft_v9.png"
+  },
+  "2609.36940": {
+    "image": "assets/papers/2026-10-01/2609.36940.webp",
+    "image_source": "https://arxiv.org/html/2609.36940v1/DispFlowgs-teaser-vertical.png"
+  },
+  "2609.36596": {
+    "image": "assets/papers/2026-10-01/2609.36596.webp",
+    "image_source": "https://arxiv.org/html/2609.36596v1/fig01-teaser.png",
+    "project": "https://opendrivelab.github.io/Haco-Page/"
+  },
+  "2609.36558": {
+    "image": "assets/papers/2026-10-01/2609.36558.webp",
+    "image_source": "https://arxiv.org/pdf/2609.36558"
+  },
+  "2609.36024": {
+    "image": "assets/papers/2026-10-01/2609.36024.webp",
+    "image_source": "https://arxiv.org/pdf/2609.36024",
+    "project": "https://shuzhaoxie.github.io/CoDimRecon/"
+  },
+  "2609.36495": {
+    "image": "assets/papers/2026-10-01/2609.36495.webp",
+    "image_source": "https://arxiv.org/pdf/2609.36495"
+  },
+  "2609.37947": {
+    "image": "assets/papers/2026-10-01/2609.37947.webp",
+    "image_source": "https://arxiv.org/html/2609.37947v1/fig04_grid_explainer.png"
+  },
+  "2609.36582": {
+    "image": "assets/papers/2026-10-01/2609.36582.webp",
+    "image_source": "https://arxiv.org/html/2609.36582v1/comparison_exp_and_MPM_rcleg.png"
+  },
+  "2609.36166": {
+    "image": "assets/papers/2026-10-01/2609.36166.webp",
+    "image_source": "https://arxiv.org/html/2609.36166v1/Fig1.jpg"
+  },
+  "2609.37970": {
+    "image": "assets/papers/2026-10-01/2609.37970.webp",
+    "image_source": "https://arxiv.org/html/2609.37970v1/tile_a.png"
+  },
+  "2609.37793": {
+    "image": "assets/papers/2026-10-01/2609.37793.webp",
+    "image_source": "https://arxiv.org/html/2609.37793v1/1.11.png",
+    "project": "https://bobc-123.github.io/MVG-WAM/"
+  },
+  "2609.37874": {
+    "image": "assets/papers/2026-10-01/2609.37874.webp",
+    "image_source": "https://arxiv.org/html/2609.37874v1/intro_relayout_2x6_moderate_vertical_labels.png"
+  },
+  "2609.37071": {
+    "image": "assets/papers/2026-10-01/2609.37071.webp",
+    "image_source": "https://arxiv.org/html/2609.37071v1/figures/CoCo-Reg_qualitative_deformation_final.png"
+  },
+  "2609.36543": {
+    "image": "assets/papers/2026-10-01/2609.36543.webp",
+    "image_source": "https://arxiv.org/html/2609.36543v1/pictures/experiments/traj/example.png"
+  },
+  "2609.37986": {
+    "image": "assets/papers/2026-10-01/2609.37986.webp",
+    "image_source": "https://arxiv.org/html/2609.37986v1/teaser8.png"
+  },
+  "2609.36374": {
+    "image": "assets/papers/2026-10-01/2609.36374.webp",
+    "image_source": "https://arxiv.org/html/2609.36374v1/figures/pseudo_label_gen.png"
+  },
+  "2609.36875": {
+    "image": "assets/papers/2026-10-01/2609.36875.webp",
+    "image_source": "https://arxiv.org/html/2609.36875v1/figures_final/teaser.jpg"
   }
 }
