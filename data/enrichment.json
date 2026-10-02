@@ -560,5 +560,103 @@
   "2609.36875": {
     "image": "assets/papers/2026-10-01/2609.36875.webp",
     "image_source": "https://arxiv.org/html/2609.36875v1/figures_final/teaser.jpg"
+  },
+  "2609.38623": {
+    "image": "assets/papers/2026-10-02/2609.38623.webp",
+    "image_source": "https://arxiv.org/html/2609.38623v1/fig01_confounding_demo.png"
+  },
+  "2609.38483": {
+    "image": "assets/papers/2026-10-02/2609.38483.webp",
+    "image_source": "https://arxiv.org/html/2609.38483v1/image/figure1.png"
+  },
+  "2609.39431": {
+    "image": "assets/papers/2026-10-02/2609.39431.webp",
+    "image_source": "https://arxiv.org/html/2609.39431v1/sch3.png",
+    "venue": "Journal of Computational Physics (2026)"
+  },
+  "2609.38418": {
+    "image": "assets/papers/2026-10-02/2609.38418.webp",
+    "image_source": "https://arxiv.org/html/2609.38418v1/figures/overview.png"
+  },
+  "2609.38365": {
+    "image": "assets/papers/2026-10-02/2609.38365.webp",
+    "image_source": "https://arxiv.org/pdf/2609.38365"
+  },
+  "2609.38977": {
+    "image": "assets/papers/2026-10-02/2609.38977.webp",
+    "image_source": "https://arxiv.org/html/2609.38977v1/architecture.png"
+  },
+  "2609.38966": {
+    "image": "assets/papers/2026-10-02/2609.38966.webp",
+    "image_source": "https://arxiv.org/html/2609.38966v1/Fig1.png"
+  },
+  "2609.39017": {
+    "image": "assets/papers/2026-10-02/2609.39017.webp",
+    "image_source": "https://arxiv.org/html/2609.39017v1/4task.png"
+  },
+  "2609.38622": {
+    "image": "assets/papers/2026-10-02/2609.38622.webp",
+    "image_source": "https://arxiv.org/html/2609.38622v1/teasernew.png"
+  },
+  "2609.38653": {
+    "image": "assets/papers/2026-10-02/2609.38653.webp",
+    "image_source": "https://arxiv.org/html/2609.38653v1/figures/overview.png",
+    "project": "https://cnai.epfl.ch/terra/"
+  },
+  "2609.39950": {
+    "image": "assets/papers/2026-10-02/2609.39950.webp",
+    "image_source": "https://arxiv.org/html/2609.39950v1/figure1_final.png"
+  },
+  "2609.38715": {
+    "image": "assets/papers/2026-10-02/2609.38715.webp",
+    "image_source": "https://arxiv.org/html/2609.38715v1/fig/ex1_image.jpg"
+  },
+  "2609.38195": {
+    "image": "assets/papers/2026-10-02/2609.38195.webp",
+    "image_source": "https://arxiv.org/html/2609.38195v1/fig_ro_fields.png"
+  },
+  "2609.39053": {
+    "image": "assets/papers/2026-10-02/2609.39053.webp",
+    "image_source": "https://arxiv.org/html/2609.39053v1/solver_frame_000750.png"
+  },
+  "2609.38416": {
+    "image": "assets/papers/2026-10-02/2609.38416.webp",
+    "image_source": "https://arxiv.org/html/2609.38416v1/phi_modes_3d.png"
+  },
+  "2609.38443": {
+    "image": "assets/papers/2026-10-02/2609.38443.webp",
+    "image_source": "https://arxiv.org/html/2609.38443v1/fig1_method_overview.png"
+  },
+  "2609.38707": {
+    "image": "assets/papers/2026-10-02/2609.38707.webp",
+    "image_source": "https://arxiv.org/html/2609.38707v1/robustfeasibilitymap_N6.png"
+  },
+  "2609.39006": {
+    "image": "assets/papers/2026-10-02/2609.39006.webp",
+    "image_source": "https://arxiv.org/html/2609.39006v1/intro3.png"
+  },
+  "2609.38746": {
+    "image": "assets/papers/2026-10-02/2609.38746.webp",
+    "image_source": "https://arxiv.org/html/2609.38746v1/figures/teaser_image/teaser_composite.png"
+  },
+  "2609.39960": {
+    "image": "assets/papers/2026-10-02/2609.39960.webp",
+    "image_source": "https://arxiv.org/html/2609.39960v1/4d_reconstruction_history_compressed.png"
+  },
+  "2609.38592": {
+    "image": "assets/papers/2026-10-02/2609.38592.webp",
+    "image_source": "https://arxiv.org/html/2609.38592v1/dataset_generation.png"
+  },
+  "2609.40206": {
+    "image": "assets/papers/2026-10-02/2609.40206.webp",
+    "image_source": "https://arxiv.org/pdf/2609.40206"
+  },
+  "2609.40113": {
+    "image": "assets/papers/2026-10-02/2609.40113.webp",
+    "image_source": "https://arxiv.org/pdf/2609.40113"
+  },
+  "2609.38719": {
+    "image": "assets/papers/2026-10-02/2609.38719.webp",
+    "image_source": "https://arxiv.org/pdf/2609.38719"
   }
 }
