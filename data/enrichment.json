@@ -658,5 +658,107 @@
   "2609.38719": {
     "image": "assets/papers/2026-10-02/2609.38719.webp",
     "image_source": "https://arxiv.org/pdf/2609.38719"
+  },
+  "2610.00731": {
+    "image": "assets/papers/2026-10-03/2610.00731.webp",
+    "image_source": "https://arxiv.org/html/2610.00731v1/figures/fig1a.png"
+  },
+  "2610.01943": {
+    "image": "assets/papers/2026-10-03/2610.01943.webp",
+    "image_source": "https://arxiv.org/html/2610.01943v1/images/teaser3.jpg"
+  },
+  "2610.00451": {
+    "image": "assets/papers/2026-10-03/2610.00451.webp",
+    "image_source": "https://arxiv.org/html/2610.00451v1/figures/Teaser.jpg",
+    "project": "https://rihat99.github.io/PACT/"
+  },
+  "2610.00618": {
+    "image": "assets/papers/2026-10-03/2610.00618.webp",
+    "image_source": "https://arxiv.org/html/2610.00618v1/inverse_result_grid.png"
+  },
+  "2610.00280": {
+    "image": "assets/papers/2026-10-03/2610.00280.webp",
+    "image_source": "https://arxiv.org/html/2610.00280v1/figures/method_overview.png"
+  },
+  "2610.01985": {
+    "image": "assets/papers/2026-10-03/2610.01985.webp",
+    "image_source": "https://arxiv.org/pdf/2610.01985",
+    "project": "https://sites.google.com/view/h-spar",
+    "code": "https://github.com/naviiidz/h-spar-sim"
+  },
+  "2610.00003": {
+    "image": "assets/papers/2026-10-03/2610.00003.webp",
+    "image_source": "https://arxiv.org/html/2610.00003v1/teaser_figure.png"
+  },
+  "2610.00904": {
+    "image": "assets/papers/2026-10-03/2610.00904.webp",
+    "image_source": "https://arxiv.org/html/2610.00904v1/figs/phase2.png"
+  },
+  "2610.01162": {
+    "image": "assets/papers/2026-10-03/2610.01162.webp",
+    "image_source": "https://arxiv.org/html/2610.01162v1/fig/fig_overview.png"
+  },
+  "2610.00220": {
+    "image": "assets/papers/2026-10-03/2610.00220.webp",
+    "image_source": "https://arxiv.org/html/2610.00220v1/Fig1_overview_new.png"
+  },
+  "2610.01697": {
+    "image": "assets/papers/2026-10-03/2610.01697.webp",
+    "image_source": "https://arxiv.org/html/2610.01697v1/GOP_Fig1.png"
+  },
+  "2610.00638": {
+    "image": "assets/papers/2026-10-03/2610.00638.webp",
+    "image_source": "https://arxiv.org/html/2610.00638v1/figures/main_framework.png"
+  },
+  "2610.01668": {
+    "image": "assets/papers/2026-10-03/2610.01668.webp",
+    "image_source": "https://arxiv.org/html/2610.01668v1/fig1.png"
+  },
+  "2610.01185": {
+    "image": "assets/papers/2026-10-03/2610.01185.webp",
+    "image_source": "https://arxiv.org/html/2610.01185v1/figures/eyecatcher.png"
+  },
+  "2610.01219": {
+    "image": "assets/papers/2026-10-03/2610.01219.webp",
+    "image_source": "https://arxiv.org/html/2610.01219v1/figures/introduction/fig1_qyw_rgb_q95.jpg"
+  },
+  "2610.01744": {
+    "image": "assets/papers/2026-10-03/2610.01744.webp",
+    "image_source": "https://arxiv.org/html/2610.01744v1/fig1_rev_final.png",
+    "data": "https://huggingface.co/datasets/wonguen/3DROID"
+  },
+  "2610.01210": {
+    "image": "assets/papers/2026-10-03/2610.01210.webp",
+    "image_source": "https://arxiv.org/html/2610.01210v1/S0_Teaser_FullWidth_table1.png",
+    "project": "https://mint-sjtu.github.io/EgoFound3R.io/"
+  },
+  "2610.01742": {
+    "image": "assets/papers/2026-10-03/2610.01742.webp",
+    "image_source": "https://arxiv.org/html/2610.01742v1/teaser-v2.png",
+    "project": "https://jiahuilei.com/projects/wmm/"
+  },
+  "2610.02160": {
+    "image": "assets/papers/2026-10-03/2610.02160.webp",
+    "image_source": "https://arxiv.org/html/2610.02160v1/teaser_v7.png"
+  },
+  "2610.01707": {
+    "image": "assets/papers/2026-10-03/2610.01707.webp",
+    "image_source": "https://arxiv.org/html/2610.01707v1/teaser.png"
+  },
+  "2610.01286": {
+    "image": "assets/papers/2026-10-03/2610.01286.webp",
+    "image_source": "https://arxiv.org/html/2610.01286v1/figures/Teasor.png"
+  },
+  "2610.01229": {
+    "image": "assets/papers/2026-10-03/2610.01229.webp",
+    "image_source": "https://arxiv.org/html/2610.01229v1/overview_unified.png"
+  },
+  "2610.00415": {
+    "image": "assets/papers/2026-10-03/2610.00415.webp",
+    "image_source": "https://arxiv.org/html/2610.00415v1/figures/FIGURE1_vis.png"
+  },
+  "2610.01057": {
+    "image": "assets/papers/2026-10-03/2610.01057.webp",
+    "image_source": "https://arxiv.org/html/2610.01057v1/fig1.png"
   }
 }
