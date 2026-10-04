@@ -89,6 +89,14 @@ def card(report: Path, paper: dict, enrichment: dict) -> str:
     image_source = safe_url(extra.get("image_source"))
     if image_source and alt != "论文配图待补":
         links.append(f"[图源]({image_source})")
+    abstract_zh = extra.get("abstract_zh")
+    if isinstance(abstract_zh, str) and abstract_zh.strip():
+        abstract = inline(abstract_zh.strip())
+        abstract_source = safe_url(extra.get("abstract_source"))
+        source_link = f'<br><a href="{html.escape(abstract_source, quote=True)}">原摘要来源</a>' if abstract_source else ""
+        abstract_block = f"<details><summary>中文摘要</summary>{abstract}{source_link}</details>"
+    else:
+        abstract_block = "<details><summary>中文摘要</summary>原摘要译文暂未补充；请查看 Paper 中的原始 Abstract。</details>"
     return (
         f"![{inline(alt)}]({image})<br>"
         f"<sub>{inline(label)} · #{paper['rank']}</sub><br>"
@@ -96,6 +104,7 @@ def card(report: Path, paper: dict, enrichment: dict) -> str:
         f"<sub>{inline(authors)}</sub><br>"
         f"<sub>机构：{inline(paper['affiliation'])}</sub><br>"
         + " · ".join(links)
+        + "<br>" + abstract_block
     )
 
 
