@@ -14,6 +14,7 @@
 
 ## Topics
 
+- [Tool Design：具身物理工具设计 · 61 篇中文论文卡片](topics/tool-design.md)
 - [2026 年 3D 测试时编辑与编辑后物理属性：100 篇论文](topics/2026-3d-ttt-editing-post-edit-physics.md)
 - [2026 年 3D 物理资产与功能编辑：100 篇论文](topics/2026-3d-physics-functional-editing.md)
 
